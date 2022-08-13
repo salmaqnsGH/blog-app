@@ -17,6 +17,9 @@
 !/log/.keep
 !/tmp/.keep
 
+# I don't want to show my secrets
+/config/secret.yml
+
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
 !/tmp/pids/
