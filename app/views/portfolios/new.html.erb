@@ -15,6 +15,12 @@
       <%= f.label :subtitle, style: "display: block" %>
       <%= f.text_area :subtitle %>
     </div>
+    <ul>
+      <%= f.fields_for :technologies do |technology_form| %>
+        <li><%= technology_form.label :name %></li>
+        <li><%= technology_form.text_field :name %></li>
+      <% end %>
+    </ul>
   
     <div>
       <%= f.submit %>
