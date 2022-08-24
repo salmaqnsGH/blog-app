@@ -1,3 +1,6 @@
 body{
     background-color: grey;
 }
+.blog-nav a {
+    color:red
+}
