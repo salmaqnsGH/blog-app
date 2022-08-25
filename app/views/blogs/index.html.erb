@@ -6,11 +6,13 @@
       <th>
         Title
       </th>
+      <th>Date</th>
       <th>Body</th>
       <th colspan="4">Status</th>
     </tr>
   </thead>
   <tbody>
+    <%= link_to "Create New Item", new_blog_path %>
     <%= render @blogs %>
   </tbody>
 </table>
