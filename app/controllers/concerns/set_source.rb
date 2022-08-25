@@ -6,6 +6,6 @@ module SetSource
     end
 
     def set_source
-        session[:source] = params[:q] if params[:id]
+        session[:source] = params[:q] if params[:q]
     end
 end
